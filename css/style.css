@@ -10,6 +10,15 @@ body {
 }
 
 
+.header {
+    border-bottom: 1px solid #ffffff2c;
+    width: 100%;
+}
+.container {
+    overflow: hidden;
+    margin:auto;
+}
+
 .logo h6 {
    font-weight: 500;
    font-size: 30px;
@@ -25,6 +34,7 @@ body {
 .hero-text h1 {
    font-weight: 700;
    font-size: 90px;
+   margin-bottom: 20px;
 }
 
 .hero-text span {
@@ -53,16 +63,56 @@ body {
 }
 
 
-element.style {
+.hero-img {
    width: 400px;
    height: auto;
-   /* border: 3px solid red; */
 }
+
+
+.custom-row {
+    position: relative;
+}
+
+.down-arrow {
+   position: absolute;
+   bottom: 18px;
+   left: 27%;
+}
+.down-arrow i {
+   width: 96px;
+   height: 96px;
+   background-color: #393E46;
+   color: white;
+   padding: 20px;
+   font-size: 20px;
+}
+
+ .hero-area-text {
+   margin-left: 78px;
+}
+
+.hero-img-area {
+    padding-top: 100px;
+    padding-right: 100px;
+} 
 /* hero code start  */
 
 
 @media (max-width:991px) {
-  .nav-menu {
+  .nav-menu li {
      display: none;
   }
+}
+
+@media (max-width:375px) {
+ .hero-area-text {
+   margin-left: 0px;
+}
+
+
+.hero-text h1 {
+   font-weight: 700;
+   font-size: 55px;
+   margin-bottom: 20px;
+}
 }
