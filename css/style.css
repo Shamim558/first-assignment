@@ -12,7 +12,6 @@ body {
 
 .header {
     border-bottom: 1px solid #ffffff2c;
-    width: 100%;
 }
 .container {
     overflow: hidden;
@@ -101,7 +100,7 @@ body {
 
 .about-text-area h2 {
     font-weight:700;
-    font-size: 5cqw;
+    font-size: 50px;
     line-height: 96px;
 }
 .about-text-area span {
@@ -118,6 +117,53 @@ body {
     /* width: 665px; */
 }
 /* abot section */
+
+
+/* work sectio  */
+.work-section {
+    background-image: url(/assets/Image20250209221709.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.custom-text h2 {
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 96px;
+    margin-bottom: 18px;
+}
+.custom-text span {
+    color: #00ADB5;
+}
+.sub-menu li a {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    text-shadow:0px 4px 4px rgba(0, 0, 0, 0.5);
+}
+
+.sub-menu li {
+   background-color:#393E46;
+   padding: 10px 30px;
+   border-radius: 30px;
+}
+
+
+.sub-menu li:first-child {
+    background-color: #00ADB5;
+    padding: 10px 30px;
+    border-radius: 30px;
+}
+.custom-row-1 {
+    background-color: #393e4663;
+}
+
+.custom-row-1 img {
+    padding: 61px 52px 61px 52px;
+}
+
+/* work sectio  */
 
 @media (max-width:991px) {
   .nav-menu li {
@@ -146,5 +192,19 @@ body {
 .about-img-area img {
    width: 100% !important;
    padding:83px 121px 62px 121px !important;
+}
+
+
+.sub-menu li {
+   background-color:#393E46;
+   padding: 10px 10px;
+   border-radius: 30px;
+}
+
+
+.sub-menu li:first-child {
+    background-color: #00ADB5;
+    padding: 10px 20px;
+    border-radius: 30px;
 }
 }
