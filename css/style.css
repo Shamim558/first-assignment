@@ -75,7 +75,7 @@ body {
 
 .down-arrow {
    position: absolute;
-   bottom: 18px;
+   bottom: 60px;
    left: 27%;
 }
 .down-arrow i {
@@ -92,11 +92,32 @@ body {
 }
 
 .hero-img-area {
-    padding-top: 100px;
-    padding-right: 100px;
+    padding-top: 230px;
+    padding-right: 50px;
 } 
 /* hero code start  */
 
+/* abot section */
+
+.about-text-area h2 {
+    font-weight:700;
+    font-size: 5cqw;
+    line-height: 96px;
+}
+.about-text-area span {
+    color: #00ADB5;
+}
+
+.about-img-area img {
+    width: 700px;
+    padding:83px 121px 62px 121px
+}
+
+.about-img-area {
+    background-image: url(/assets/about-bg.png);
+    /* width: 665px; */
+}
+/* abot section */
 
 @media (max-width:991px) {
   .nav-menu li {
@@ -114,5 +135,16 @@ body {
    font-weight: 700;
    font-size: 55px;
    margin-bottom: 20px;
+}
+
+.down-arrow {
+   position: absolute;
+   bottom: 24px;
+   left: 27%;
+}
+
+.about-img-area img {
+   width: 100% !important;
+   padding:83px 121px 62px 121px !important;
 }
 }
