@@ -30,6 +30,11 @@ body {
 
 
 /* hero code start  */
+
+.hero-section {
+    padding:100px 0px;
+}
+
 .hero-text h1 {
    font-weight: 700;
    font-size: 90px;
@@ -97,7 +102,9 @@ body {
 /* hero code start  */
 
 /* abot section */
-
+.about-section {
+   padding: 100px 0px;
+}
 .about-text-area h2 {
     font-weight:700;
     font-size: 50px;
@@ -125,6 +132,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    padding:120px 0px;
 }
 
 .custom-text h2 {
@@ -169,6 +177,11 @@ body {
 /* .main-contact-section {
     padding:100px 0px; 
 } */
+
+.contact-section {
+    padding: 120px 0px;
+}
+
 .contact-detalls h2 {
     font-weight: 700;
     font-size: 64px;
@@ -231,6 +244,10 @@ body {
 
 
 /* footer  */
+
+.footer {
+    padding: 50px 0px;
+}
 
 .manin-menu {
     display: flex;
