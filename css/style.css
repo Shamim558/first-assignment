@@ -229,6 +229,39 @@ body {
 }
 /* contact section  */
 
+
+/* footer  */
+
+.manin-menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.main-item a {
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.social-icon {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 30px;
+   margin-top: 30px;
+}
+
+.social-link img {
+    height: 48px;
+    width: 48px;
+    border-radius: 50%;
+    background-color: #393E46;
+    padding:11px;
+}
+
+/* footer  */
+
 @media (max-width:991px) {
   .nav-menu li {
      display: none;
@@ -314,6 +347,19 @@ body {
    margin-top: 10px;
    background-color: #393e468a;
    resize: none;
+}
+.messege-btn {
+   text-decoration: none;
+   color: aliceblue;
+   text-shadow:0px 4px 4px rgba(0, 0, 0, 0.5) ;
+   font-size: 25px;
+   font-weight: 700;
+   background-color: #00ADB5;
+   padding: 10px 25px;
+   border-radius: 30px;
+   display:block;
+   margin: 20px auto;
+   text-align: center;
 }
 
 }
