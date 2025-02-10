@@ -162,8 +162,72 @@ body {
 .custom-row-1 img {
     padding: 61px 52px 61px 52px;
 }
-
 /* work sectio  */
+
+/* contact section  */
+
+/* .main-contact-section {
+    padding:100px 0px; 
+} */
+.contact-detalls h2 {
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 80px;
+}
+.contact-detalls span {
+    color: #00ADB5;
+}
+
+.contact-detalls img {
+   width: 245px;
+   margin-left: auto;
+   padding-right: 50px;
+}
+
+.contact-form input {
+      border: none;
+      outline: none;
+      padding:10px 8px ;
+      margin-top: 10px;
+      border-radius: 5px;
+      margin-bottom: 10px;
+      background-color: #393e469a;   
+}
+
+.contact-form textarea {
+   border: none;
+   outline: none;
+   width: 557px;
+   height: 280px;
+   border-radius: 5px;
+   padding:10px 8px ;
+   margin-top: 10px;
+   background-color: #393e468a;
+   resize: none;
+}
+.contact-form label { 
+   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+}
+
+::placeholder {
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+    text-transform: capitalize;
+}
+
+
+.messege-btn {
+    text-decoration: none;
+    color: aliceblue;
+    text-shadow:0px 4px 4px rgba(0, 0, 0, 0.5) ;
+    font-size: 18px;
+    font-weight: 700;
+    background-color: #00ADB5;
+    padding: 10px 25px;
+    border-radius: 30px;
+    display: inline-block;
+    margin-top: 20px;
+}
+/* contact section  */
 
 @media (max-width:991px) {
   .nav-menu li {
@@ -194,7 +258,6 @@ body {
    padding:83px 121px 62px 121px !important;
 }
 
-
 .sub-menu li {
    background-color:#393E46;
    padding: 10px 10px;
@@ -207,4 +270,50 @@ body {
     padding: 10px 20px;
     border-radius: 30px;
 }
+.custom-text h2 {
+   font-weight: 700;
+   font-size: 30px;
+   line-height: 96px;
+   margin-bottom: 18px;
+}
+
+.contact-detalls img {
+   max-width: 245px;
+}
+.contact-detalls h2 {
+   font-weight: 700;
+   font-size: 30px;
+   line-height: 80px;
+}
+
+.contact-detalls img {
+   width: 245px;
+   margin:auto;
+   padding-bottom: 30px;
+} 
+
+.contact-form input {
+   border: none;
+   outline: none;
+   padding:10px 8px ;
+   margin-top: 10px;
+   border-radius: 5px;
+   margin-bottom: 10px;
+   background-color: #393e469a;
+   width: 100%;  
+}
+
+
+.contact-form textarea {
+   border: none;
+   outline: none;
+   width: 100%;
+   height: 280px;
+   border-radius: 5px;
+   padding:10px 8px ;
+   margin-top: 10px;
+   background-color: #393e468a;
+   resize: none;
+}
+
 }
