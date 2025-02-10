@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+   margin: 0;
+   padding: 0;
+}
+
+body {
+  font-family: "poppins", serif;
+}
+
+
+.logo h6 {
+   font-weight: 500;
+   font-size: 30px;
+   font-family: "Anton", serif;
+   margin-bottom: 0px;
+}
+.nav-menu {
+   margin: 0px;
+}
+
+
+/* hero code start  */
+.hero-text h1 {
+   font-weight: 700;
+   font-size: 90px;
+}
+
+.hero-text span {
+   color: #116a73;
+}
+
+.hire-btn {
+   text-decoration: none;
+   color: white;
+   background-color: #00ADB5;
+   border-radius: 25px;
+   padding: 10px 20px;
+   font-weight: 400;
+   display: inline-block;
+   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+   font-size: 18px;
+}
+.download-btn {
+  text-decoration: none;
+  color: white;
+  background-color:#393E46;
+  border-radius: 20px;
+  padding: 10px 20px;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+
+element.style {
+   width: 400px;
+   height: auto;
+   /* border: 3px solid red; */
+}
+/* hero code start  */
+
+
+@media (max-width:991px) {
+  .nav-menu {
+     display: none;
+  }
+}
